@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Text_to_Speech_App",
+    "slug": "Text_to_Speech_App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/app icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#efffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.dweep_patil.Text_to_Speech_App"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
